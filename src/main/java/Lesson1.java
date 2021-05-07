@@ -28,8 +28,8 @@ public class Lesson1 {
         WebElement passwordField = driver.findElement(By.name("password"));
         passwordField.sendKeys("230901890");
 
-        WebElement logInPageButton = driver.findElement((By.cssSelector("[data-test='pa-uiLib-authentication-btn primary pa-uiLib-authentication-signIn']")));
-        logInPageButton.click();
+        /*WebElement logInPageButton = driver.findElement((By.cssSelector("[data-test='pa-uiLib-authentication-btn primary pa-uiLib-authentication-signIn']")));
+        logInPageButton.click();*/
 
         driver.quit();
     }
